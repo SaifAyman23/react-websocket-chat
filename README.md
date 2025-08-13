@@ -1,3 +1,12 @@
+```
+███████  █████  ██ ███████ ███████ ██      ██████  ██ ███    ██ 
+██      ██   ██ ██ ██      ██      ██      ██   ██ ██ ████   ██ 
+███████ ███████ ██ █████   █████   ██      ██   ██ ██ ██ ██  ██ 
+     ██ ██   ██ ██ ██      ██      ██      ██   ██ ██ ██  ██ ██ 
+███████ ██   ██ ██ ██      ███████ ███████ ██████  ██ ██   ████ 
+                                                                
+```
+
 # useChatWebSocket Hook
 
 A custom React hook for managing real-time chat interactions over WebSocket.  
@@ -119,3 +128,4 @@ export default function ChatRoom({ roomID, username }) {
 * If the WebSocket is disconnected, sending events will fail silently and log a warning if `log` is enabled.
 
 ---
+> This hook was made with a specific setup in mind, customize it as much as you want to fit your needs.
